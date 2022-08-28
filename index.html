@@ -9,14 +9,17 @@
 </head>
 
 <body>
-  
+  <!--顶栏-->
   <div class="container-fluid d-flex justify-content-between bg-info">
     <h5 class="fw-bold">Bootstrap中文手册</h5>
-    <button class="btn" src="img/menu.png" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+    <!-- 侧滑按钮 -->
+    <a class="btn" href="#offcanvas" data-bs-toggle"="offcanvas" aria-controls="offcanvas">
       <img src="img/menu.png" alt="">
-    </button>
+    </a>
   </div>
-  <div class="offcanvas offcanvas-start bg-info data-bs-scroll="true" data-bs-backdrop="true"" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+
+  <!--侧滑栏-->
+  <div class="offcanvas offcanvas-start bg-info data-bs-scroll=" true" data-bs-backdrop="true"" tabindex=" -1" id="offcanvas" aria-labelledby="offcanvasLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasLabel">目录</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
